@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Health Risk Predictor</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f9;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2b6cff, #1b3dbf);
+    color: white;
+    padding: 60px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.start {
+    background: white;
+    color: #2b6cff;
+    font-weight: bold;
+}
+
+.history {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.section {
+    text-align: center;
+    margin: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>💙 Lifestyle Disease Risk Prediction</h1>
+    <p>
+        Take control of your health with AI-powered insights.
+        Get personalized risk predictions and recommendations.
+    </p>
+
+    <!-- IMPORTANT BUTTON -->
+    <button class="start" onclick="startApp()">Start Assessment →</button>
+    <button class="history">View History</button>
+</div>
+
+<div class="section">
+    <h2>Why Early Detection Matters</h2>
+    <p>Prevent diseases with early insights and smart AI analysis.</p>
+</div>
+
+<script>
+function startApp() {
+    // CHANGE THIS URL
+    window.location.href = "http://localhost:8501";
+}
+</script>
+
+</body>
+</html>
